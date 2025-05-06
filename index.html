@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marine</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/glider.css">	
+</head>
+
+<body>
+	<div class = "container">
+		<div class="header_nav">
+			<header class="header">
+				<div class = "wrap header_wrap">
+					<div class ="left">
+						<div class="left_logo"><img src = "images/logo.png" alt = "красивый логотип знак корабля" title = "логотип компании"></div>
+						<span id = "left_text">MARINE</span>
+					</div>
+					<div class ="right">
+						<span id ="right_text"><a>CALL US: +1 800 450 17 04 |</a></span>
+						<a id="phone" href="tel:+18004501704"><img src = "images/phone.png" alt = "иконка трубки для шаблона " title = "телефон"></a>
+						<div class = "social_icons">
+							<a class ="social icons_hidden"  href="#"><img src="images/facebook.png" alt = "иконка лого фейсбука" title = "фейсбук"></a>
+							<a class ="social icons_hidden"  href="#"><img src="images/twitter.png" alt = "иконка лого твиттера " title = "твитер"></a>
+							<a class ="social icons_hidden"  href="#"><img src="images/skype.png" alt = "иконка лого скайпа" title = "скайп"></a>
+							<a class ="social icons_hidden"  href="#"><img src="images/g+.png" alt="иконка лого скайпа гугл плюс" title ="гугл+"></a>
+							<a class ="social icons_hidden"  href="#"><img src="images/V.png" alt="иконка лого вимео" title ="вимео"></a>
+							<a class ="social icons_hidden"  href="#"><img src="images/in.png" alt="иконка лого линкедин" title ="ликедин"></a>
+							<a id = "social" class ="social icons_hidden" href="#"><img src="images/ins.png" alt="иконка лого инстаграмм" title ="инстаграмм"></a>
+							<button id = "social_but" onclick="show(icon)" ><img src = "images/share.png" alt = "иконка поделится для шаблона " title ="социальные сети"></button>
+						</div>
+					</div>
+					<div id = "mobile_type" class = "mobile_type">
+						<img src ="images/form_search.png" alt ="диалоговое окно" title ="социальные сети">
+						<div class = "mobile_icons">
+							<a class ="social" href="#"><img src="images/facebook.png" alt = "иконка лого фейсбука" title = "фейсбука"></a>
+							<a class ="social" href="#"><img src="images/twitter.png" alt = "иконка лого твиттера " title = "твитера"></a>
+							<a class ="social" href="#"><img src="images/skype.png" alt = "иконка лого скайпа" title = "скайпа"></a>
+							<a class ="social" href="#"><img src="images/g+.png" alt="иконка лого скайпа гугл плюс" title ="гугл+ "></a>
+							<a class ="social" href="#"><img src="images/V.png" alt="иконка лого вимео" title ="логотип вимео"></a>
+							<a class ="social" href="#"><img src="images/in.png" alt="иконка линкедин" title = "линкедин"></a>
+							<a class ="social" href="#"><img src="images/ins.png" alt="иконка лого инстаграмм" title ="инстаграмм"></a>
+						</div>
+						<div class ="background"></div>
+					</div>
+				</div>
+			</header>
+			<nav class="nav">
+				<div class="wrap nav_wrap">
+					<div class = "nav_left">
+						<ul>
+							<li><a class = "nav_link" href="#">
+								<span class = "nav_text">HOME</span>
+								<img class = "nav_arrow" src = "images/nav_arrow.png" alt="значок стрелки" title ="выбрано">
+								<img class = "blue_arrow" src = "images/blue_arrow.png" alt="значок голубой стрелки" title ="выбрано"></a>
+							</li>
+							<li><a class = "nav_link" href="#">BLOG
+								<img class = "nav_arrow" src = "images/nav_arrow.png" alt="значок стрелки" title ="выбрано">
+								<img class = "blue_arrow" src = "images/blue_arrow.png" alt="значок голубой стрелки" title ="выбрано"></a>
+							</li>
+							<li><a class = "nav_link" href="#">GALLERY
+								<img class = "nav_arrow" src = "images/nav_arrow.png" alt="значок стрелки" title ="выбрано">
+								<img class = "blue_arrow" src = "images/blue_arrow.png" alt="значок голубой стрелки" title ="выбрано"></a>
+							</li>
+							<li><a class = "nav_link" href="#">PAGES
+								<img class = "nav_arrow" src = "images/nav_arrow.png" alt="значок стрелки" title ="выбрано">
+								<img class = "blue_arrow" src = "images/blue_arrow.png" alt="значок голубой стрелки" title ="выбрано"></a>
+							</li>
+							<li><a class = "nav_link" href="#">CONTACTS
+								<img class = "nav_arrow" src = "images/nav_arrow.png" alt="значок стрелки" title ="выбрано">
+								<img class = "blue_arrow" src = "images/blue_arrow.png" alt="значок голубой стрелки" title ="выбрано"></a>
+							</li>
+						</ul>
+					</div>
+					<div class = "nav_right">
+						<button onclick="showhide(mydiv)" class = "search"><img src = "images/search.png" alt="иконка поиска" title ="поиск"></button>
+					</div>
+					<div id = "d1" class="d1">
+					  <img src ="images/form_search.png" alt ="диалоговое окно" title ="искать">
+					  <form>
+						<input class = "text_search" type="text" placeholder="    Search ...">
+						<button class = "search_button" type="submit"></button>
+					  </form>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<main>
+			<section class = "biglogo">
+				<header class = "slider center_logo">
+						<img src = "images/ship.png" alt ="логотип корабля" title ="логотип компании">
+						<h1>NATURAL POWER</h1>
+						<p class = "text_centerlogo"> VIVAMUS ORGI SEM, CONSECTETUR UT VESTIBULUM.</p>
+				</header>	
+				<div class="slider slider_arrow">
+					<button class = "arrow arrow_prev" id = "prev"><img src ="images/arrow_left.png" alt ="иконка стрелка влево" title ="вправо"></button>
+					<button class = "arrow arrow_next" id ="next"><img src ="images/arrow_right.png" alt ="иконка вправо для слайдера" title ="влево"></button>
+				</div>
+				<ul id="slides">
+					<li class="slide active"><img src = "images/bg2.jpg" alt ="картинка слайдера" title ="изображение слайдера"></li>
+					<li class="slide"><img src = "images/bg2.jpg " alt ="картинка слайдера" title ="изображение слайдера"></li>
+					<li class="slide"><img src = "images/bg2.jpg " alt ="картинка слайдера" title ="изображение слайдера"></li>
+				</ul>
+				<footer class = "slider slider_footer">
+					<div class = "wrap wrap_slfooter">
+						<div class = "web_dev">
+							<div class = "rectangle"><img src = "images/rectangle.png" alt ="иконка квадрата" title ="квадрат" >
+								<div class = "web_rectangle"><img src = "images/cog.png" alt ="иконка шестерни" title ="веб-разработка"></div>						
+							</div>
+							<p class = "header_rectangle">Web development</p>
+							<p class = "text_rectangle">IT WAS HARD TO MAKE IT SO COOL</p>
+						</div>
+						<div class = "seo_mon">
+							<div class = "rectangle"><img src = "images/rectangle.png" alt ="иконка квадрата" title ="квадрат">
+								<div class = "web_rectangle"><img src = "images/line_chart.png" alt ="логотип графика" title ="SEO мониторинг"></div>
+							</div>
+							<p class = "header_rectangle">SEO Monitoting</p>
+							<p class = "text_rectangle">IT WAS HARD TO MAKE IT SO COOL</p>
+						</div>
+						<div class = "net_com">
+							<div class = "rectangle"><img src = "images/rectangle.png" alt ="иконка квадрата" title ="квадрат">
+								<div class = "web_rectangle"><img src = "images/community.png" alt ="картика сообщества" title ="сообщество"></div>
+							</div>
+							<p class = "header_rectangle">Network Communities</p>
+							<p class = "text_rectangle">IT WAS HARD TO MAKE IT SO COOL</p>
+						</div>
+						<div class = "web_an">
+							<div class = "rectangle"><img src = "images/rectangle.png" alt ="иконка квадрата" title ="квадрат">
+								<div class = "web_rectangle"><img src = "images/pie_chart.png" alt ="лого круговой диаграммы" title ="веб-аналитика"></div>
+							</div>
+							<p class = "header_rectangle">Web analytics</p>
+							<p class = "text_rectangle">IT WAS HARD TO MAKE IT SO COOL</p>
+						</div>
+					</div>
+				</footer>
+			</section>	
+			<section class = "recent_projects ">
+				<h2 id ="headline_proj" >Recent Projects</h2>
+				<p id ="text_proj">Morbi a libero eget erat auctor cursus vitae id tortor. Suspendisse rhoncus. Vestibulum eu ligula lorem. <br/>
+				Vivamus orci sem, consectetur ut vestibulum a, semper ac dui.</p>
+				<div class="glider-contain">
+					<div class="glider">
+						<div class = "slider_proj"><img src = "images/slider_proj.png" alt="картинка проекта" title = "выбранный проект">
+							<div class = "proj_about">
+								<button class = "proj_but link"></button>
+								<button class = "proj_but about"></button>		
+							</div>
+							<div class = "proj_shape">
+								<img class = "shape" src = "images/proj_shape.png" alt="иконка диалоговое окно" title = "проект">
+								<img class = "active_shape" src = "images/active_proj_shape.png" alt="иконка диалоговое окно" title = "выбранный проект">
+								<div class = "title">
+									<p class = "project_title">Project Title</p>
+									<p class = "text_title">GRAPHIC DESIGN</p>
+								</div>
+								<div class = "heart">
+									<img class = "heart_black" src = "images/proj_heart.png" alt="иконка сердца" title = "нравится">
+									<img class = "heart_red" src = "images/proj_redheart.png" alt="иконка красного сердца" title = "нравится">
+									<span>12</span>
+								</div>
+							</div>
+						</div>
+						<div class = "slider_proj"><img src = "images/slider_proj.png" alt="картинка проекта" title = "выбранный проект">
+							<div class = "proj_about">
+								<button class = "proj_but link"></button>
+								<button class = "proj_but about"></button>		
+							</div>
+							<div class = "proj_shape">
+								<img class = "shape" src = "images/proj_shape.png" alt="иконка диалоговое окно" title = "проект">
+								<img class = "active_shape" src = "images/active_proj_shape.png" alt="иконка диалоговое окно" title = "выбранный проект">
+								<div class = "title">
+									<p class = "project_title">Project Title</p>
+									<p class = "text_title">GRAPHIC DESIGN</p>
+								</div>
+								<div class = "heart">
+									<img class = "heart_black" src = "images/proj_heart.png" alt="иконка сердца" title = "нравится">
+									<img class = "heart_red" src = "images/proj_redheart.png" alt="иконка красного сердца" title = "нравится">
+									<span>12</span>
+								</div>
+							</div>
+						</div>
+						<div class = "slider_proj"><img src = "images/slider_proj.png" alt="картинка проекта" title = "выбранный проект">
+							<div class = "proj_about">
+								<button class = "proj_but link"></button>
+								<button class = "proj_but about"></button>		
+							</div>
+							<div class = "proj_shape">
+								<img class = "shape" src = "images/proj_shape.png" alt="иконка диалоговое окно" title = "проект">
+								<img class = "active_shape" src = "images/active_proj_shape.png" alt="иконка диалоговое окно" title = "выбранный проект">
+								<div class = "title">
+									<p class = "project_title">Project Title</p>
+									<p class = "text_title">GRAPHIC DESIGN</p>
+								</div>
+								<div class = "heart">
+									<img class = "heart_black" src = "images/proj_heart.png" alt="иконка сердца" title = "нравится">
+									<img class = "heart_red" src = "images/proj_redheart.png" alt="иконка красного сердца" title = "нравится">
+									<span>12</span>
+								</div>
+							</div>
+						</div>
+						<div class = "slider_proj"><img src = "images/slider_proj.png" alt="картинка проекта" title = "выбранный проект">
+							<div class = "proj_about">
+								<button class = "proj_but link"></button>
+								<button class = "proj_but about"></button>		
+							</div>
+							<div class = "proj_shape">
+								<img class = "shape" src = "images/proj_shape.png" alt="иконка диалоговое окно" title = "проект">
+								<img class = "active_shape" src = "images/active_proj_shape.png" alt="иконка диалоговое окно" title = "выбранный проект">
+								<div class = "title">
+									<p class = "project_title">Project Title</p>
+									<p class = "text_title">GRAPHIC DESIGN</p>
+								</div>
+								<div class = "heart">
+									<img class = "heart_black" src = "images/proj_heart.png" alt="иконка сердца" title = "нравится">
+									<img class = "heart_red" src = "images/proj_redheart.png" alt="иконка красного сердца" title = "нравится">
+									<span>12</span>
+								</div>
+							</div>
+						</div>
+						<div class = "slider_proj"><img src = "images/slider_proj.png" alt="картинка проекта" title = "выбранный проект">
+							<div class = "proj_about">
+								<button class = "proj_but link"></button>
+								<button class = "proj_but about"></button>		
+							</div>
+							<div class = "proj_shape">
+								<img class = "shape" src = "images/proj_shape.png" alt="иконка диалоговое окно" title = "проект">
+								<img class = "active_shape" src = "images/active_proj_shape.png" alt="иконка диалоговое окно" title = "выбранный проект">
+								<div class = "title">
+									<p class = "project_title">Project Title</p>
+									<p class = "text_title">GRAPHIC DESIGN</p>
+								</div>
+								<div class = "heart">
+									<img class = "heart_black" src = "images/proj_heart.png" alt="иконка сердца" title = "нравится">
+									<img class = "heart_red" src = "images/proj_redheart.png" alt="иконка красного сердца" title = "нравится">
+									<span>12</span>
+								</div>
+							</div>
+						</div>
+						<div class = "slider_proj"><img src = "images/slider_proj.png" alt="картинка проекта" title = "выбранный проект">
+							<div class = "proj_about">
+								<button class = "proj_but link"></button>
+								<button class = "proj_but about"></button>		
+							</div>
+							<div class = "proj_shape">
+								<img class = "shape" src = "images/proj_shape.png" alt="иконка диалоговое окно" title = "проект">
+								<img class = "active_shape" src = "images/active_proj_shape.png" alt="иконка диалоговое окно" title = "выбранный проект">
+								<div class = "title">
+									<p class = "project_title">Project Title</p>
+									<p class = "text_title">GRAPHIC DESIGN</p>
+								</div>
+								<div class = "heart">
+									<img class = "heart_black" src = "images/proj_heart.png" alt="иконка сердца" title = "нравится">
+									<img class = "heart_red" src = "images/proj_redheart.png" alt="иконка красного сердца" title = "нравится">
+									<span>12</span>
+								</div>
+							</div>
+						</div>
+						<div class = "slider_proj"><img src = "images/slider_proj.png" alt="картинка проекта" title = "выбранный проект">
+							<div class = "proj_about">
+								<button class = "proj_but link"></button>
+								<button class = "proj_but about"></button>		
+							</div>
+							<div class = "proj_shape">
+								<img class = "shape" src = "images/proj_shape.png" alt="иконка диалоговое окно" title = "проект">
+								<img class = "active_shape" src = "images/active_proj_shape.png" alt="иконка диалоговое окно" title = "выбранный проект">
+								<div class = "title">
+									<p class = "project_title">Project Title</p>
+									<p class = "text_title">GRAPHIC DESIGN</p>
+								</div>
+								<div class = "heart">
+									<img class = "heart_black" src = "images/proj_heart.png" alt="иконка сердца" title = "нравится">
+									<img class = "heart_red" src = "images/proj_redheart.png" alt="иконка красного сердца" title = "нравится">
+									<span>12</span>
+								</div>
+							</div>
+						</div>
+						<div class = "slider_proj"><img src = "images/slider_proj.png" alt="картинка проекта" title = "выбранный проект">
+							<div class = "proj_about">
+								<button class = "proj_but link"></button>
+								<button class = "proj_but about"></button>		
+							</div>
+							<div class = "proj_shape">
+								<img class = "shape" src = "images/proj_shape.png" alt="иконка диалоговое окно" title = "проект">
+								<img class = "active_shape" src = "images/active_proj_shape.png" alt="иконка диалоговое окно" title = "выбранный проект">
+								<div class = "title">
+									<p class = "project_title">Project Title</p>
+									<p class = "text_title">GRAPHIC DESIGN</p>
+								</div>
+								<div class = "heart">
+									<img class = "heart_black" src = "images/proj_heart.png" alt="иконка сердца" title = "нравится">
+									<img class = "heart_red" src = "images/proj_redheart.png" alt="иконка красного сердца" title = "нравится">
+									<span>12</span>
+								</div>
+							</div>
+						</div>
+						<div class = "slider_proj"><img src = "images/slider_proj.png" alt="картинка проекта" title = "выбранный проект">
+							<div class = "proj_about">
+								<button class = "proj_but link"></button>
+								<button class = "proj_but about"></button>		
+							</div>
+							<div class = "proj_shape">
+								<img class = "shape" src = "images/proj_shape.png" alt="иконка диалоговое окно" title = "проект">
+								<img class = "active_shape" src = "images/active_proj_shape.png" alt="иконка диалоговое окно" title = "выбранный проект">
+								<div class = "title">
+									<p class = "project_title">Project Title</p>
+									<p class = "text_title">GRAPHIC DESIGN</p>
+								</div>
+								<div class = "heart">
+									<img class = "heart_black" src = "images/proj_heart.png" alt="иконка сердца" title = "нравится">
+									<img class = "heart_red" src = "images/proj_redheart.png" alt="иконка красного сердца" title = "нравится">
+									<span>12</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class ="check_details">
+				<div class = "wrap check_wrap">
+					<p><span id = "check_text">A fully responsive theme</span> with clean design for your success!</p>
+					<button><img src = "images/button_icon.png " alt ="иконка перевернутого восклицательного знака" title ="ознакомится"><span>  CHECK DETAILS</span></button>
+				</div>
+			</div>
+			<section class ="posts">
+				<div class = "wrap recent_wrap">
+					<div class = "recent_posts">
+						<h3>Recent Posts</h3>
+						<div class = "post_pi">
+							<div class = "post_photo">
+								<p class ="day">15</p>
+								<p class ="date">OCT,2013</p>
+								<p class ="photo"><img src = "images/camera.png" alt="иконка фото" title = "фото"><p>
+							</div>
+							<div class = "image_post">
+								<img src = "images/post_image.png" alt="иконка сообщения" title = "сообщение">
+							</div>
+							<div class = "read_more">
+								<p class = "link_posts">
+								<a href="#">BY ADMIN</a>
+								<img src = "images/point.png" alt="иконка точка" title = "точка">
+								<a href="#">WEB,NEWS</a>
+								<img src = "images/point.png" alt="иконка точка" title = "точка">
+								<a href="#">5 COMMENTS</a>
+								<img src = "images/point.png" alt="иконка точка" title = "точка">
+								<a href="#"><span>READ MORE</span></a>
+								<img src = "images/post_arrow.png" alt="иконка стрелка влево" title = "читать">								
+								</p>
+								<hr class ="posts_line" />
+								<p class = "post_header">Vivamus orci sem,conse tur per ac dui oin vulputate.</p>
+								<p class = "post_text">Proin vulputstr aliquam mi nec hendrerit. Sed entum velit vel ipsum.</p>
+							</div>
+						</div>
+						<div class = "post_pi">
+							<div class = "post_photo">
+								<p class ="day">15</p>
+								<p class ="date">OCT,2013</p>
+								<p class ="photo"><img src = "images/video.png" alt="иконка видео" title = "видео"><p>
+							</div>
+							<div class = "image_post">
+								<img src = "images/post_image.png" alt="иконка сообщения" title = "сообщение">
+							</div>
+							<div class = "read_more">
+								<p class = "link_posts">
+								<a href="#">BY ADMIN</a>
+								<img src = "images/point.png" alt="иконка точка" title = "точка">
+								<a href="#">WEB,NEWS</a>
+								<img src = "images/point.png" alt="иконка точка" title = "точка">
+								<a href="#">5 COMMENTS</a>
+								<img src = "images/point.png" alt="иконка точка" title = "точка">
+								<a href="#"><span>READ MORE</span></a>
+								<img src = "images/post_arrow.png" alt="иконка стрелка влево" title = "читать">								
+								</p>
+								<hr class ="posts_line" />
+								<p class = "post_header">Orci sem,conse tur per ac dui oin tate.</p>
+								<p class = "post_text">Proin vulputstr aliquam mi nec hendrerit. Sed entum velit vel ipsum. Ut sem lacus, ttitor et aliqua. Eget, iaculis id lacus.</p>
+							</div>
+						</div>
+					</div>
+					<div class="accord">
+						<h3>Accordeon</h3>
+						<input class="accord__radio" type="checkbox" id="ka1" name="ak" />					
+						<label class="accord__page" for="ka1"></label>
+						<p class="accord__text post_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, pariatur.</p>
+						<input class="accord__radio" type="checkbox" id="ka2" name="ak"/>
+						<label class="accord__page" for="ka2"></label>
+						<p class="accord__text post_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur facilis, ullam laborum adipisci debitis! Provident.</p>
+						<input class="accord__radio" type="checkbox" id="ka3" name="ak"/>
+						<label class="accord__page" for="ka3"></label>
+						<p class="accord__text post_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum minima sapiente, ad libero.</p>
+					</div> 
+					<div class="people">
+						<h3>What People Say</h3>
+						<div class = "say_block">
+							<img id = "people_shape" src = "images/people_shape.png" alt="иконка диалоговое окно" title = "диалоговое окно">
+							<div ><img  src = "images/people_icon.png" alt="иконка человека" title = "человек"></div>
+							<div class = "name_com">
+								<p class = "people_name">Sarah Doe</p>
+								<p class = "people_company">CEO, COMPANY.COM</p>
+							</div>
+						</div> 
+						<div class = "people_quotes">
+							<img  src = "images/quotes.png" alt="иконка двойных кавычек" title = "цытата">
+						</div>
+						<div class = "people_ht">
+							<p class = "say_header post_header">Vivamus orci sem, consectetur ut vestibulum a,semper ac dui.</p>
+							<p class = "say_text post_text">Proin vulputate aliquam mi nec rerit. Sed entum velit ve ipsum bibendum tristique. Ut sem lacus, tutor putate liquam mi nec hendrerit.</p>
+						</div>
+					</div> 
+				</div>
+			</section>			
+			<section class = "flexible_pictures">
+				<div class = "wrap">
+					<div class = "wrap_picture">
+						<div class = "pictures">
+							<div class ="flexible_bigimg">
+								<img src = "images/flexible_bigimg.png" alt="картинка монитора" title = "проект на мониторе">
+							</div>
+							<div class ="flexible_img"><img src = "images/flexible_img.png" alt="картинка монитора" title = "проект на мониторе"></div>
+							<div class ="keyboard"><img src = "images/keyboard.png" alt="картинка клавиатуры с мышкой" title = "клавиатура"></div>
+						</div>
+					</div>
+					<div class = "wrap_picture">
+						<div class = "picture">
+							<div class = "icon_block">
+								<img src = "images/plane.png" alt="иконка бумажный самолетик" title = "гибкое решение">				
+								<div class = "flexible_ht">
+									<h3 class ="flexible_header">Flexible Solutions</h3>
+									<p class ="flexible_text">Lorem ipsum dolor sit amet, <span>tetur piscing</span> elit. Suspendisse smod congue<br/> bibendum. Aliquam erat volutpat. Phasellus eget justo lacus.</p>
+								</div>
+							</div>
+							<hr class = "flexible_line" />
+							<div class = "icon_block">
+								<img src = "images/compass.png" alt="иконка компаса" title = "целевой подход">							
+								<div class = "flexible_ht">
+									<h3 class ="flexible_header">Target Approach</h3>
+									<p class ="flexible_text">Lorem ipsum dolor sit amet, <span>tetur piscing</span> elit. Suspendisse smod congue<br/> bibendum. Aliquam erat volutpat. Phasellus eget justo lacus.</p>
+								</div>
+							</div>
+							<hr class = "flexible_line" />
+							<div class = "icon_block">
+								<img src = "images/world.png" alt="иконка планеты" title = "глобальная разработка">				
+								<div class = "flexible_ht">
+									<h3 class ="flexible_header">Gllobal Development</h3>
+									<p class ="flexible_text">Lorem ipsum dolor sit amet, <span>tetur piscing</span> elit. Suspendisse smod congue<br/> bibendum. Aliquam erat volutpat. Phasellus eget justo lacus.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class ="team">
+				<div class = "wrap team_wrap">
+					<h2 id = "team_header">Our Team</h2>
+					<div class = "person">
+						<img class = "icon" src ="images/team_icon.png" alt="картинка члена комманды" title = "член комманды">
+						<p class = "team_name">Sarah Doe</p>
+						<p class = "team_company">CEO</p>
+						<p class = "team_text">Proin vulputate aliquamimi nec rent. Sed entum velit vel ipsum bibendum tristique.</p>
+						<hr class="team_line"/>
+						<p class = "team_socials">
+						<a class ="team_social" href="#"><img src="images/facebook.png" alt="иконка фейсбук" title = "фейсбук"></a>
+						<a class ="team_social" href="#"><img src="images/twitter.png" alt="иконка твиттер" title = "твиттер"></a>
+						<a class ="team_social" href="#"><img src="images/skype.png" alt="иконка скайп" title = "скайп"></a>
+						<a class ="team_social" href="#"><img src="images/g+.png" alt="иконка гугл плюс" title = "гугл+"></a>
+						<a class ="team_social" href="#"><img src="images/V.png" alt="иконка вимео" title = "вимео"></a>
+						<a class ="team_social" href="#"><img src="images/in.png" alt="иконка линкедин" title = "линкедин"></a>
+						<a class ="team_social" href="#"><img src="images/ins.png" alt="иконка инстаграмм" title = "инстаграмм"></a>
+						</p>
+					</div>
+					<div class = "person">
+						<img class = "icon" src ="images/team_icon.png" alt="картинка члена комманды" title = "член комманды">
+						<p class = "team_name">Sarah Doe</p>
+						<p class = "team_company">CEO</p>
+						<p class = "team_text">Proin vulputate aliquamimi nec rent. Sed entum velit vel ipsum bibendum tristique.</p>
+						<hr class="team_line"/>
+						<p class = "team_socials">
+						<a class ="team_social" href="#"><img src="images/facebook.png" alt="иконка фейсбук" title = "фейсбук"></a>
+						<a class ="team_social" href="#"><img src="images/twitter.png" alt="иконка твиттер" title = "твиттер"></a>
+						<a class ="team_social" href="#"><img src="images/skype.png" alt="иконка скайп" title = "скайп"></a>
+						<a class ="team_social" href="#"><img src="images/g+.png" alt="иконка гугл плюс" title = "гугл+"></a>
+						<a class ="team_social" href="#"><img src="images/V.png" alt="иконка вимео" title = "вимео"></a>
+						<a class ="team_social" href="#"><img src="images/in.png" alt="иконка линкедин" title = "линкедин"></a>
+						<a class ="team_social" href="#"><img src="images/ins.png" alt="иконка инстаграмм" title = "инстаграмм"></a>
+						</p>
+					</div>
+					<div class = "person">
+						<img class = "icon" src ="images/team_icon.png" alt="картинка члена комманды" title = "член комманды">
+						<p class = "team_name">Sarah Doe</p>
+						<p class = "team_company">CEO</p>
+						<p class = "team_text">Proin vulputate aliquamimi nec rent. Sed entum velit vel ipsum bibendum tristique.</p>
+						<hr class="team_line"/>
+						<p class = "team_socials">
+						<a class ="team_social" href="#"><img src="images/facebook.png" alt="иконка фейсбук" title = "фейсбук"></a>
+						<a class ="team_social" href="#"><img src="images/twitter.png" alt="иконка твиттер" title = "твиттер"></a>
+						<a class ="team_social" href="#"><img src="images/skype.png" alt="иконка скайп" title = "скайп"></a>
+						<a class ="team_social" href="#"><img src="images/g+.png" alt="иконка гугл плюс" title = "гугл+"></a>
+						<a class ="team_social" href="#"><img src="images/V.png" alt="иконка вимео" title = "вимео"></a>
+						<a class ="team_social" href="#"><img src="images/in.png" alt="иконка линкедин" title = "линкедин"></a>
+						<a class ="team_social" href="#"><img src="images/ins.png" alt="иконка инстаграмм" title = "инстаграмм"></a>
+						</p>
+					</div>
+					<div class = "person">
+						<img class = "icon" src ="images/team_icon.png" alt="картинка члена комманды" title = "член комманды">
+						<p class = "team_name">Sarah Doe</p>
+						<p class = "team_company">CEO</p>
+						<p class = "team_text">Proin vulputate aliquamimi nec rent. Sed entum velit vel ipsum bibendum tristique.</p>
+						<hr class="team_line"/>
+						<p class = "team_socials">
+						<a class ="team_social" href="#"><img src="images/facebook.png" alt="иконка фейсбук" title = "фейсбук"></a>
+						<a class ="team_social" href="#"><img src="images/twitter.png" alt="иконка твиттер" title = "твиттер"></a>
+						<a class ="team_social" href="#"><img src="images/skype.png" alt="иконка скайп" title = "скайп"></a>
+						<a class ="team_social" href="#"><img src="images/g+.png" alt="иконка гугл плюс" title = "гугл+"></a>
+						<a class ="team_social" href="#"><img src="images/V.png" alt="иконка вимео" title = "вимео"></a>
+						<a class ="team_social" href="#"><img src="images/in.png" alt="иконка линкедин" title = "линкедин"></a>
+						<a class ="team_social" href="#"><img src="images/ins.png" alt="иконка инстаграмм" title = "инстаграмм"></a>
+						</p>
+					</div>
+				</div>
+			</section>	
+			<div class  = "sponsors">
+				<div class ="wrap sponsors_wrap">
+					<div class = "sponsor"><img src = "images/netcredid.png" alt="логотип компании неткредит" title = "неткредит"></div>
+					<div class = "sponsor"><img src = "images/paroo.png" alt="логотип компании перру" title = "перру"></div>
+					<div class = "sponsor"><img src = "images/foxters.png" alt="логотип компании фокстерс" title = "фокстерс"></div>
+					<div class = "sponsor"><img src = "images/queens.png" alt="логотип компании квинз консел" title = "queen's counsel"></div>
+					<div class = "sponsor"><img src = "images/kamkord.png" alt="логотип компании камкорд" title = "камкорд"></div>							
+				</div>					
+			</div>					
+			<section class = "form">
+				<h2 id = "form_header">Get in Touch!</h2>
+				<form>
+					<div class = "form_name"><input class = "name" type="text" required placeholder="    Name*">
+						<img class = "img_name" src = "images/form_name.png" alt="иконка имени" title = "имя">
+					</div>
+					<div class = "form_name" ><input class = "emailname" type="email" required placeholder="    E-mail*">
+						<img class = "img_email" src = "images/form_massage.png" alt="иконка почты" title = "почта">
+					</div>
+					<div class = "form_massage" ><textarea class = "message" placeholder="    Massage"></textarea></div>
+					<div class ="form_button" ><button class = "send" type="submit">SEND MESSAGE</button>
+						<button class = "clear" type="reset">CLEAR
+							<img class = "img_clear" src = "images/clear.png" alt="иконка очистить" title = "очистить">
+						</button>
+					</div>
+				</form>	
+			</section>
+			<div class = "twitter_block">
+				<div class ="wrap wrap_twit">
+					<div class= "bird_block"></div>
+					<ul id = "twit_slides">
+						<li class ="twit_slide twit_active">
+							<article class="twitter_text">
+								<h3 class="visually-hidden">Tweet by @circles</h3>
+								<p><a href="">@circles</a> Because we know you don't want to be in both portrait AND landscape! We care about limited format ... <a href="">by Quill</a></p>
+								<span>about 5 minutes ago</span>
+							</article>
+						</li>
+						<li class ="twit_slide ">
+							<article class="twitter_text">
+								<h3 class="visually-hidden">Tweet by @circles</h3>
+								<p><a href="">@circles</a> Because we know you don't want to be in both portrait AND landscape! We care about limited format ... <a href="">by Rob</a></p>
+								<span>about 5 minutes ago</span>
+							</article>
+						</li>
+						<li class ="twit_slide ">
+							<article class="twitter_text">
+								<h3 class="visually-hidden">Tweet by @circles</h3>
+								<p><a href="">@circles</a> Because we know you don't want to be in both portrait AND landscape! We care about limited format ... <a href="">by Den</a></p>
+								<span>about 5 minutes ago</span>
+							</article>
+						</li>
+					</ul>
+					<div class ="twit_button">
+						<button class = "left_twitb" id ="left_twit"><img src = "images/arrowl_twit.png" alt="иконка стрелки влево" title = "влево"></button>
+						<button class = "right_twitb" id ="right_twit"><img src = "images/arrowr_twit.png" alt="иконка стрелки вправо" title = "вправо"></button>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class ="footer">
+			<div class ="wrap wrap_footer">
+				<div class = "footer_logo" id ="footer_logo">
+					<div class = "img_logo"><img src ="images/footer_logo.png" alt="иконка парусника" title = "логотип компании"></div>
+					<p class = "header_logo">MARINE</p>
+					<p class = "text_footer">Vivamus orci sem,consectetur ut vestibulum a, mper ac dui. aenean tellus risl, commodo eu aliquet ut, pulvinar ut sapien. Proin tate aliquam mi nec hendrerit.</p>
+				</div>
+				<div class = "footer_posts">
+					<p class = "footer_header">Recent Posts</p>
+					<p class = "footer_post"><a href ="">DEC 15,2012</a> | <a href ="">BY ADMIN</a></p>
+					<p class = "footer_header_post">Morbi a libero eget erat auctor.</p>
+					<p class = "text_footer">Sus vitae id tortor suspendisse stibulum eu igula loren ivamus orci sem, ectetur.</p>
+					<hr id = "footer_line"/>
+					<p class = "footer_post">DEC 15,2012 BY ADMIN</p>
+					<p class = "footer_header_post">Morbi a libero eget erat auctor.</p>
+					<p class = "text_footer">Sus vitae id tortor suspendisse stibulum eu igula loren ivamus orci sem, ectetur.</p>
+				</div>
+				<div class = "footer_contacts">
+					<p class = "footer_header">Contacts</p>
+					<div class = "wrap_block">
+						<div class = "img_contacts"><img src ="images/contact_point.png" alt="иконка местоположения" title = "местоположение"></div>
+						<p class = "text_footer text_contacts">Phoenix Inc.<br/>
+						PO Box 21177<br/>
+						Little Lonsdale St, Melbourne<br/>
+						Victoria 8011 Australia<br/>
+						</p>
+					</div>
+					<div class = "wrap_block">
+						<div class = "img_contacts"><img src ="images/contact_phone.png" alt="иконка телефона" title = "телефон"></div>
+						<p class = "text_footer text_contacts"><a>Phone: (415) 124-5678</a><br/>
+						Fax: (415) 124-5678<br/>
+						</p>
+					</div>
+					<div class = "wrap_block">
+						<div class = "img_contacts"><img src ="images/contact_email.png" alt="иконка почты" title = "почта" ></div>
+						<p class = "text_footer text_contacts last_contact">support@yourname.com</p>
+					</div>
+				</div>
+				<div class = "footer_newsletter">
+					<p class = "footer_header">Newsletter Signup</p>
+					<p class = "text_footer">By subscribing to our mailing list you will get the latest news from us.</p>
+					<form>
+						<div class = "footer_form"><input class = "footer_email" type="email" required placeholder="">
+							<div class = "icon_email"><img src ="images/ok.png" alt="иконка галочка" title = "выбрать"></div>
+						</div>										
+					</form>
+					<p class = "follow_us">Follow Us</p>
+					<nav class = "footer_socials">
+						<a class ="footer_social" href="#"><img src="images/facebook.png" alt="иконка фейсбука" title = "фейсбук"></a>
+						<a class ="footer_social" href="#"><img src="images/twitter.png" alt="иконка твиттера" title = "твиттер"></a>
+						<a class ="footer_social" href="#"><img src="images/skype.png" alt="иконка скайпа" title = "скайп"></a>
+						<a class ="footer_social" href="#"><img src="images/g+.png" alt="иконка гугл плюс" title = "гугл+"></a>
+						<a class ="footer_social" href="#"><img src="images/V.png" alt="иконко вимео" title = "вимео"></a>
+						<a class ="footer_social" href="#"><img src="images/in.png" alt="иконка линкедин" title = "линкедин"></a>
+						<a class ="footer_social" href="#"><img src="images/ins.png" alt="иконка инстаграмм" title = "инстаграмм"></a>
+					</nav>
+				</div>
+			</div>	
+			<div class="footer_footer">
+				<div class = "wrap">
+					<p>© 2013 MARINE. All Rights Reserved</p>
+				</div>
+			</div>				
+		</footer>	
+	</div>
+	
+	<script src = "script/twitter-slider.js"></script>
+	<script src = "script/socials-for-mobile.js"></script>
+	<script src = "script/search.js"></script>
+	<script src = "script/accordeon.js"></script>
+	<script src = "script/glider.js"></script>
+	<script src = "script/project-glider.js"></script>
+	<script src = "script/big-slider.js"></script>
+</body>
+</html>
+
